@@ -1431,6 +1431,12 @@ img {
   vertical-align: middle;
 }
 
+@media (max-width: 768px) {
+  .main-picture {
+    background-position-x: 62% !important;
+  }
+}
+
 .img-responsive {
   display: block;
   max-width: 100%;
